@@ -37,8 +37,9 @@ After adding the component, you can process text as usual:
 
 ```python
 doc = nlp('''o evento está agendado pro dia 25 de Agosto de 2023.
-          Nós também temos uma reunião para 10 de setembro e uma outra no décimo segundo de outubro 
-          e finaliza no dia 4 de Jan''')
+  Nós também temos uma reunião para 10 de setembro e uma outra no décimo segundo dia de outubro de 2024
+  décimo-segundo dia de outubro de 2024
+  e finaliza no dia 4 de Jan''')
 ```
 
 ### Accessing the Parsed Dates
@@ -56,6 +57,7 @@ This will output:
 ```
 Text: 25 de Agosto de 2023 -> Parsed Date: 2023-08-25 00:00:00
 Text: 10 de setembro -> Parsed Date: 2024-09-10 00:00:00
-Text: segundo de outubro -> Parsed Date: 2024-10-02 00:00:00
+Text: décimo segundo dia de outubro de 2024 -> Parsed Date: 2024-10-12 00:00:00
+Text: décimo-segundo dia de outubro de 2024 -> Parsed Date: 2024-10-12 00:00:00
 Text: 4 de Jan -> Parsed Date: 2024-01-04 00:00:00
 ```
