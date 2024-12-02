@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+date_spacy/__init__.py
+date_spacy/components.py
+date_spacy.egg-info/PKG-INFO
+date_spacy.egg-info/SOURCES.txt
+date_spacy.egg-info/dependency_links.txt
+date_spacy.egg-info/requires.txt
+date_spacy.egg-info/top_level.txt
