@@ -25,7 +25,7 @@ import spacy
 from date_spacy import find_dates
 
 # Load your desired spaCy model
-nlp = spacy.blank('en')
+nlp = spacy.blank('pt')
 
 # Add the component to the pipeline
 nlp.add_pipe('find_dates')
@@ -36,9 +36,9 @@ nlp.add_pipe('find_dates')
 After adding the component, you can process text as usual:
 
 ```python
-doc = nlp("""The event is scheduled for 25th August 2023.
-          We also have a meeting on 10 September and another one on the twelfth of October and a
-          final one on January fourth.""")
+doc = nlp('''o evento está agendado pro dia 25 de Agosto de 2023.
+          Nós também temos uma reunião para 10 de setembro e uma outra no décimo segundo dia de outubro 
+          e finaliza no dia 4 de Jan''')
 ```
 
 ### Accessing the Parsed Dates
