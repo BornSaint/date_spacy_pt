@@ -6,13 +6,13 @@ import dateparser
 
 ordinal_to_number = {
         "primeiro": "1", "segundo": "2", "terceiro": "3", "quarto": "4", "quinto": "5",
-        "sexto": "6", "sétimo": "7", "oitavo": "8", "nono": "9", "décimo": "10",
-        "décimo primeiro": "11", "décimo segundo": "12", "décimo terceiro": "13", "décimo quarto": "14",
-        "décimo quinto": "15", "décimo sexto": "16", "décimo sétimo": "17", "décimo oitavo": "18",
-        "décimo nono": "19", "vigésimo": "20", "vigésimo primeiro": "21", "vigésimo segundo": "22",
-        "vigésimo terceiro": "23", "vigésimo quarto": "24", "vigésimo quinto": "25", "vigésimo sexto": "26",
-        "vigésimo sétimo": "27", "vigésimo oitavo": "28", "vigésimo nono": "29", "trigésimo": "30",
-        "trigésimo primeiro": "31"
+        "sexto": "6", "sétimo": "7", "oitavo": "8", "nono": "9", "décimo-": "10",
+        "décimo-primeiro": "11", "décimo-segundo": "12", "décimo-terceiro": "13", "décimo-quarto": "14",
+        "décimo-quinto": "15", "décimo-sexto": "16", "décimo-sétimo": "17", "décimo-oitavo": "18",
+        "décimo-nono": "19", "vigésimo": "20", "vigésimo-primeiro": "21", "vigésimo-segundo": "22",
+        "vigésimo-terceiro": "23", "vigésimo-quarto": "24", "vigésimo-quinto": "25", "vigésimo-sexto": "26",
+        "vigésimo-sétimo": "27", "vigésimo-oitavo": "28", "vigésimo-nono": "29", "trigésimo": "30",
+        "trigésimo-primeiro": "31"
 
 }
 
