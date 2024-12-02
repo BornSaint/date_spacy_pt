@@ -8,7 +8,7 @@ This lightweight approach can be added to an existing spaCy pipeline or to a bla
 
 ## Installation
 
-To install `date_spacy`, simply run:
+To install `date_spacy_pt`, simply run:
 
 ```bash
 pip install git+https://github.com/BornSaint/date_spacy_pt.git
