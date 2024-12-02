@@ -34,7 +34,7 @@ def find_dates(doc):
     #     "twenty-seventh", "twenty-eighth", "twenty-ninth", "thirtieth", "thirty-first"
     # ]
     
-    ordinal_pattern = r"\b(?:" + "|".join(ordinals) + r")\b"
+    ordinal_pattern = r"\b(?:" + "(\s*dia\s*)?|".join(ordinals) + r")\b"
 
     # A regex pattern to capture a variety of date formats
     date_pattern = r"""
